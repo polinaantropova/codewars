@@ -1,3 +1,5 @@
+#include <iostream>
+
 int centuryFromYear(int year) 
 {
 int centure;
