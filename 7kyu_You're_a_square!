@@ -1,0 +1,6 @@
+#include<math.h>
+bool is_square(int n)
+  // TODO
+{
+return n == floor(sqrt(n)) * floor(sqrt(n));
+}
