@@ -10,3 +10,12 @@ if (((long long) a+b>c) & ((long long) b+c>a) & ((long long) a+c>b)){return true
     return false;
   }
 };
+
+
+/*namespace Triangle
+{
+  bool isTriangle(int a, int b, int c)
+  {
+    return a-b<c && b-c<a && c-a<b;
+  }
+};*/
