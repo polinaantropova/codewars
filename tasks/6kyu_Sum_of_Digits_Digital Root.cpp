@@ -26,3 +26,9 @@ std::string str = std::to_string(n);
     }
     return sum;
 }
+
+
+/*int digital_root(int n)
+{
+    return --n % 9 + 1;
+}*/
