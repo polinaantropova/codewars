@@ -14,11 +14,12 @@ int cycle(int n) {
     if (n % 5 == 0 || n % 2 == 0) return -1;
     int num = 1;
     int symb = 0;
-    while ((num != 1) || (symb == 0)) {
-        num *= 10;
-        num %= n;
+     do {
+        num =(num*10)%n;
         symb++;
-    }
+    } while (num != 1);
     return symb;
 
 }
+
+
